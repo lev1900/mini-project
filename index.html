@@ -9,6 +9,7 @@
 </head>
 <body>
  <div class="container">
+<h1>Mini Projects - Intro to JS</h1>
     <div class="row">
         <div class="col">
             <div class="card" style="width: 30rem;">
@@ -17,14 +18,14 @@
     <br>
     <h6 class="card-subtitle mb-2 text-body-secondary">Subtotal ($)</h6>
     <div class="input-group mb-3">
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  <input type="text" class="form-control" id="sub-total"aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <h6 class="card-subtitle mb-2 text-body-secondary">Tip Percentage (as decimal, e.g. 0.2)</h6>
 <div class="input-group mb-3">
   <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <button type="button" class="btn btn-tip">Calculate Tip</button>
-<div class="card-footer">
+<div class="card-footer" id="tip-output">
     Tip Amount:--
     <br>
     Total Bill:--
@@ -39,11 +40,11 @@
     <br>
     <h6 class="card-subtitle mb-2 text-body-secondary">Hours Worked</h6>
     <div class="input-group mb-3">
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  <input type="text" class="form-control"  id="hoursWorked" aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <h6 class="card-subtitle mb-2 text-body-secondary">Hourly Rate ($) </h6>
 <div class="input-group mb-3">
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  <input type="text" class="form-control" id="hourlyRate" aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <button type="button" class="btn btn-paycheck">Calculate Paycheck</button>
  <div class="card-footer">
@@ -62,11 +63,11 @@
     <br>
     <h6 class="card-subtitle mb-2 text-body-secondary">Points Earned</h6>
     <div class="input-group mb-3">
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  <input type="text" class="form-control" id="points-earned" aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <h6 class="card-subtitle mb-2 text-body-secondary">Total Points</h6>
 <div class="input-group mb-3">
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  <input type="text" class="form-control" id="total-points" aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <button type="button" class="btn btn-grade">Calculate Grade</button>
  <div class="card-footer">
@@ -78,15 +79,15 @@
         <div class="col">
                <div class="card" style="width: 30rem;">
   <div class="card-body">
-    <h5 class="card-title"> Gass Cost Calculator</h5>
+    <h5 class="card-title"> Gas Cost Calculator</h5>
     <br>
     <h6 class="card-subtitle mb-2 text-body-secondary">Tank Size (gallons)</h6>
     <div class="input-group mb-3">
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  <input type="text" class="form-control" id="tankSize" aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <h6 class="card-subtitle mb-2 text-body-secondary">Price per Gallon ($)</h6>
 <div class="input-group mb-3">
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  <input type="text" class="form-control" id="priceGallon" aria-label="Dollar amount (with dot and two decimal places)">
 </div>
 <button type="button" class="btn btn-gas">Calculate Gas Cost</button>
   <div class="card-footer">
